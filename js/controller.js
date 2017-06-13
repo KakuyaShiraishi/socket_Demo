@@ -26,7 +26,7 @@ $(function () {
     // ペアリングに成功
     socket.on("successPairing", function () {
         showControllWindow();
-        $("#pairingIDText").text("Paring ID:" + roomID);
+        $("#pairingIDText").text("ペアリングID:" + roomID);
     });
 
     // PCとのペアリングに失敗

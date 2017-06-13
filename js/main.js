@@ -46,7 +46,7 @@ $(function () {
     });
 
     function loginSuccessHandler() {
-        $("#pairingIDText").text("Paring ID:" + roomID);
+        $("#pairingIDText").text("ペアリングID:" + roomID);
 
         pairingLayer.add(forcePairingLayer).animate({
             "top": "-50%"
