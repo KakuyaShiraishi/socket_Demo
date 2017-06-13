@@ -55,13 +55,13 @@ body {
   font-size: 14px;
   font-size: 1.4rem;
   line-height: 2rem;
-  background-color: #0b2f41;
+  background-color: #000; /* #0b2f41 */
   /* Old browsers */
   background-image: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #0b2f41), color-stop(100%, #031318));
   /* Chrome,Safari4+ */
-  background-image: -webkit-radial-gradient(center, ellipse cover, #0b2f41 0%, #031318 100%);
+  background-image: -webkit-radial-gradient(center, ellipse cover, #000 0%, #000 100%); /* #0b2f41 0%, #031318 100% */
   /* Chrome10+,Safari5.1+ */
-  background-image: radial-gradient(ellipse at center, #0b2f41 0%, #031318 100%);
+  background-image: radial-gradient(ellipse at center, #000 0%, #000 100%);
   /* W3C */
   background-size: 100% 100%; }
 
