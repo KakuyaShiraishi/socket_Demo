@@ -227,8 +227,8 @@ var demo;
         };
 
         ParticleSample.prototype.handleResize = function () {
-            this._shadow.scaleX = (window.innerWidth / 1024);
-            this._shadow.scaleY = (window.innerHeight / 1024);
+            this._shadow.scaleX = (window.innerWidth);
+            this._shadow.scaleY = (window.innerHeight);
         };
         return ParticleSample;
     })(createjs.Container);
