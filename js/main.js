@@ -181,7 +181,7 @@ var demo;
 
             this._emitX = 0;
             this._emitY = 0;
-            this._shadow = new createjs.Bitmap("images/Shadow.jpg");
+            this._shadow = new createjs.Bitmap("images/Shadow.png");
             this.addChildAt(this._shadow, 0);
 
             this.on("tick", this.enterFrameHandler, this);
