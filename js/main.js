@@ -181,7 +181,7 @@ var demo;
 
             this._emitX = 0;
             this._emitY = 0;
-            this._shadow = new createjs.Bitmap("images/Shadow.png");
+            this._shadow = new createjs.Bitmap("images/Shadow.jpg");
             this.addChildAt(this._shadow, 0);
 
             this.on("tick", this.enterFrameHandler, this);
@@ -227,8 +227,8 @@ var demo;
         };
 
         ParticleSample.prototype.handleResize = function () {
-            this._shadow.scaleX = (window.innerWidth);
-            this._shadow.scaleY = (window.innerHeight);
+            this._shadow.scaleX = (window.innerWidth / 1024);
+            this._shadow.scaleY = (window.innerHeight / 1024);
         };
         return ParticleSample;
     })(createjs.Container);
